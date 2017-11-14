@@ -7,6 +7,17 @@ function Regx(email){
 	return false;
 }
 
+//phone
+    var phone='+380955542364';
+function PhoneCheck(){
+if(/[+](\s*)?(\+)?([- _():=+]?\d[- _():=+]?){12,14}(\s*)?$/.test(phone)){
+    	console.log("phone number is correct");
+    }else{
+    	console.log("phone number is incorrect");
+    }
+}
+PhoneCheck();
+
 
 
 // Kaplich Validate

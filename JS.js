@@ -10,7 +10,7 @@ function Regx(email){
 //phone
     var phone='+380955542364';
 function PhoneCheck(){
-if(/[+](\s*)?(\+)?([- _():=+]?\d[- _():=+]?){12,14}(\s*)?$/.test(phone)){
+if(/^[+]380(\s?)?([- ()]?\d){9}$/.test(phone)){
     	console.log("phone number is correct");
     }else{
     	console.log("phone number is incorrect");
